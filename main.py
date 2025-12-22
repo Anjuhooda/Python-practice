@@ -2,284 +2,284 @@
 
 # append #
 
-x=["apple","banana"]
-x.append("mango")
-print(x)
+# x=["apple","banana"]
+# x.append("mango")
+# print(x)
 
-# extend #
+# # extend #
 
-x=["apple","banana"]
-y=["mango","orange"]
-x.extend(y)
-print(x)
+# x=["apple","banana"]
+# y=["mango","orange"]
+# x.extend(y)
+# print(x)
 
-# pop #
+# # pop #
 
-x=["apple","banana","mango"]
-x.pop()
-print(x)
+# x=["apple","banana","mango"]
+# x.pop()
+# print(x)
 
-# insert #
+# # insert #
 
-x=["apple","banana"]
-x.insert(1,"mango")
-print(x)
+# x=["apple","banana"]
+# x.insert(1,"mango")
+# print(x)
 
-# remove #
+# # remove #
 
-x=["apple","banana"]
-x.remove("apple")
-print(x)
+# x=["apple","banana"]
+# x.remove("apple")
+# print(x)
 
-# sort #
+# # sort #
 
-x=[5,4,2,6]
-x.sort()
-print(x)
+# x=[5,4,2,6]
+# x.sort()
+# print(x)
 
-# clear #
+# # clear #
 
-x=["apple","banana","mango"]
-x.clear()
-print(x)
+# x=["apple","banana","mango"]
+# x.clear()
+# print(x)
 
-# copy #
+# # copy #
 
-x=["orange","pineapple"]
-y=x.copy()
-print(y)
+# x=["orange","pineapple"]
+# y=x.copy()
+# print(y)
 
-## mutable ##
+# ## mutable ##
 
-x=["apple","banana","mango"]
-x[1]="cherry"
-print(x)
+# x=["apple","banana","mango"]
+# x[1]="cherry"
+# print(x)
 
-## immutable ##
+# ## immutable ##
 
-x="anju"
-x[0]="m"
-print(x)
+# x="anju"
+# x[0]="m"
+# print(x)
 
-### string method ###
+# ### string method ###
 
-# upper karna #
+# # upper karna #
 
-x="anju"
-print(x.upper())
+# x="anju"
+# print(x.upper())
 
-# lower karna #
+# # lower karna #
 
-x="ANJU"
-print(x.lower())
+# x="ANJU"
+# print(x.lower())
 
-# replace karna #
+# # replace karna #
 
-x="neelam rani"
-print(x.replace("neelam","neel"))
+# x="neelam rani"
+# print(x.replace("neelam","neel"))
 
-# isupper karna #
+# # isupper karna #
 
-x="anju"
-print(x.isupper())
+# x="anju"
+# print(x.isupper())
 
-# islower karna #
+# # islower karna #
 
-x="ANJU"
-print(x.islower())
+# x="ANJU"
+# print(x.islower())
 
-# count karna #
+# # count karna #
 
-x="neelam"
-print(x.count("e"))
+# x="neelam"
+# print(x.count("e"))
 
-## slicing ##
+# ## slicing ##
 
-x="anju"
-print(x[0:2])
+# x="anju"
+# print(x[0:2])
 
-#### operators ####
+# #### operators ####
 
-### airthmetic operator ###
+# ### airthmetic operator ###
 
-## for number ##
+# ## for number ##
 
-# addition #
+# # addition #
 
-x=4
-y=5
-print(x+y)
+# x=4
+# y=5
+# print(x+y)
 
-# subtract #
+# # subtract #
 
-x=9
-y=6
-print(x-y)
+# x=9
+# y=6
+# print(x-y)
 
-# multiply #
-x=7
-y=6
-print(x*y)
+# # multiply #
+# x=7
+# y=6
+# print(x*y)
 
-# divide #
+# # divide #
 
-x=10
-y=2
-print(x/y)
+# x=10
+# y=2
+# print(x/y)
 
-# percentage #
+# # percentage #
 
-x=20
-y=2
-print(x%y)
+# x=20
+# y=2
+# print(x%y)
 
-## for string ##
+# ## for string ##
 
-# addition #
+# # addition #
 
-x="anju"
-y="neelam"
-print(x+y)
+# x="anju"
+# y="neelam"
+# print(x+y)
 
-# subtract #
+# # subtract #
 
-x="anju"
-y="neelam"
-print(x-y)
+# x="anju"
+# y="neelam"
+# print(x-y)
 
-# multiply #
+# # multiply #
 
-x="anju"
-y="neelam"
-print(x*y)
+# x="anju"
+# y="neelam"
+# print(x*y)
 
-# divide #
+# # divide #
 
-x="anju"
-y="neelam"
-print(x/y)
+# x="anju"
+# y="neelam"
+# print(x/y)
 
-# percentage #
+# # percentage #
 
-x="anju"
-y="neelam"
-print(x%y)
+# x="anju"
+# y="neelam"
+# print(x%y)
 
-### assignment operators ###
+# ### assignment operators ###
 
-# simple assignment #
+# # simple assignment #
 
-x=10
-print(x)
+# x=10
+# print(x)
 
-# add and assignment #
+# # add and assignment #
 
-x+=10
-print(x)
+# x+=10
+# print(x)
 
-# subtract and assignment #
+# # subtract and assignment #
 
-x-=10
-print(x)
+# x-=10
+# print(x)
 
-# multiply and asignment #
+# # multiply and asignment #
 
-x*=10
-print(x)
+# x*=10
+# print(x)
 
-# divide and assignment #
+# # divide and assignment #
 
-x/=10
-print(x)
+# x/=10
+# print(x)
 
-# remainder and assignment #
+# # remainder and assignment #
 
-x%=10
-print(x)
+# x%=10
+# print(x)
 
-### comparison operators ###
+# ### comparison operators ###
 
-# barabar hai (==) #
+# # barabar hai (==) #
 
-x=5
-y=5
-print(x==y)
+# x=5
+# y=5
+# print(x==y)
 
-x=5
-y=7
-print(x==y)
+# x=5
+# y=7
+# print(x==y)
 
-# barabar nhi hai (!=) #
+# # barabar nhi hai (!=) #
 
-x=5
-y=7
-print(x!=y)
+# x=5
+# y=7
+# print(x!=y)
 
-x=4
-y=4
-print(x!=y)
+# x=4
+# y=4
+# print(x!=y)
 
-# bada hai (>) #
+# # bada hai (>) #
 
-x=10
-y=8
-print(x>y)
+# x=10
+# y=8
+# print(x>y)
 
-x=4
-y=6
-print(x>y)
+# x=4
+# y=6
+# print(x>y)
 
-# chhota hai (<) #
+# # chhota hai (<) #
 
-x=6
-y=4
-print(x<y)
+# x=6
+# y=4
+# print(x<y)
 
-x=4
-y=6
-print(x<y)
+# x=4
+# y=6
+# print(x<y)
 
-# bada ya barabar hai (>=) #
+# # bada ya barabar hai (>=) #
 
-x=4
-y=5
-print(x>=y)
+# x=4
+# y=5
+# print(x>=y)
 
-x=5
-y=4
-print(x>=y)
+# x=5
+# y=4
+# print(x>=y)
 
-# chhota ya barabar hai (<=) #
+# # chhota ya barabar hai (<=) #
 
-x=8
-y=7
-print(x<=y)
+# x=8
+# y=7
+# print(x<=y)
 
-x=7
-y=8
-print(x<=y)
+# x=7
+# y=8
+# print(x<=y)
 
-### logical operators ###
+# ### logical operators ###
 
-# and [dono condintions true honi chaiye]
+# # and [dono condintions true honi chaiye]
 
-x=5>2
-y=4<6
-print((x>y)and(x<=y))
+# x=5>2
+# y=4<6
+# print((x>y)and(x<=y))
 
-x=5>2
-y=4>6
-print((x<y)and(x<=y))
+# x=5>2
+# y=4>6
+# print((x<y)and(x<=y))
 
-# or [koi ek condition true ho]
+# # or [koi ek condition true ho]
 
-x=5>2
-y=4>6
-print((x>y)or(x>=y))
+# x=5>2
+# y=4>6
+# print((x>y)or(x>=y))
 
-x=3>4
-y=2>5
-print((x>y)or(x<y))
+# x=3>4
+# y=2>5
+# print((x>y)or(x<y))
 
 
 
@@ -316,3 +316,90 @@ print((x>y)or(x<y))
 # else:
     # print("e is greater")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# a=10
+# b=20
+# c=30
+# d=40
+# e=50
+# if a>b:
+#     if a>c:
+#         if a>d:
+#             if a>e:
+#                 print("a is greater")
+#             else:
+#                 print("e is greater")
+#         else:
+#             print("d is greater")
+#     else:
+#         print("c is greater")
+# else:
+#     print("b is greater")
+# if b>c:
+#     if b>d:
+#         if b>e:
+#             print("b is greater")
+#         else:
+#             print("e is greater")
+#     else:
+#         print("d is greater")
+# else:
+#     print("c is greater")
+# if c>d:
+#     if c>e:
+#         print("c is greater")
+#     else:
+#         print("e is greater")
+# else:
+#     print("d is greater")
+# if d>e:
+#     print("d is greater")
+# else:
+#     print("e is greater")
+
+
+
+# a=10
+# b=20
+# c=30
+# d=40
+# e=50
+# if a>b and a>c and a>d and a>e:
+#     print("a is greater")
+# elif b>c and b>d and b>e:
+#     print("b is greater")
+# elif c>d and c>e:
+#     print("c is greater")
+# elif d>e:
+#     print("d is greater")
+# else:
+#     print("e is greater")
+
+
+
+
+
+def palindrome(n):
+    number_str=str(n)
+    return number_str==number_str[::-1]
+x="madam"
+if palindrome(x):
+    print(f"{x} is a palindrome")
+else:
+    print(f"{x} is not a palindrome")

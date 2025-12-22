@@ -1,0 +1,25 @@
+# assignment operator
+#+=S
+a=9
+a+=1
+print(a)
+#-=
+b=10
+b-=5
+print(b)
+#*=
+c=20
+c*=1
+print(c)
+#/=
+d=5
+d/=10
+print(d)
+#**=
+e=50
+e**=10
+print(e)
+#%=
+f=2
+f%=2
+print(f)
