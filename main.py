@@ -333,45 +333,57 @@
 
 
 
-# a=10
-# b=20
-# c=30
-# d=40
-# e=50
-# if a>b:
-#     if a>c:
-#         if a>d:
-#             if a>e:
-#                 print("a is greater")
-#             else:
-#                 print("e is greater")
-#         else:
-#             print("d is greater")
-#     else:
-#         print("c is greater")
-# else:
-#     print("b is greater")
-# if b>c:
-#     if b>d:
-#         if b>e:
-#             print("b is greater")
-#         else:
-#             print("e is greater")
-#     else:
-#         print("d is greater")
-# else:
-#     print("c is greater")
-# if c>d:
-#     if c>e:
-#         print("c is greater")
-#     else:
-#         print("e is greater")
-# else:
-#     print("d is greater")
-# if d>e:
-#     print("d is greater")
-# else:
-#     print("e is greater")
+a=10
+b=20
+c=30
+d=40
+e=50
+if a>b:
+    if a>c:
+        if a>d:
+            if a>e:
+                print("a is greater")
+            else:
+                print("e is greater")
+        else:
+            if d>e:
+                print("d is greater")
+            else:
+                print("e is greater")
+    else:
+        if c>d:
+            if c>e:
+                print("c is greater")
+            else:
+                print("e is greater")
+        else:
+            if d>e:
+                print("d is greater")
+            else:
+                print("e is greater")
+else:
+    if b>c:
+        if b>d:
+            if b>e:
+                print("b ig greater")
+            else:
+                print("e is greater")
+        else:
+            if d>e:
+                print("d is greater")
+            else:
+                print("e is greater")
+    else:
+        if c>d:
+            if c>e:
+                print("c is greater")
+            else:
+                print("e is greater")
+        else:
+            if d>e:
+                print("d is greater")
+            else:
+                print("e is greater")
 
 
 
@@ -395,11 +407,11 @@
 
 
 
-def palindrome(n):
-    number_str=str(n)
-    return number_str==number_str[::-1]
-x="madam"
-if palindrome(x):
-    print(f"{x} is a palindrome")
-else:
-    print(f"{x} is not a palindrome")
+# def palindrome(n):
+#     number_str=str(n)
+#     return number_str==number_str[::-1]
+# x="madam"
+# if palindrome(x):
+#     print(f"{x} is a palindrome")
+# else:
+#     print(f"{x} is not a palindrome")
