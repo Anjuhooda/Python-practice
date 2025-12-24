@@ -345,45 +345,39 @@ if a>b:
                 print("a is greater")
             else:
                 print("e is greater")
+        elif d>e:
+            print("d is greater")
         else:
-            if d>e:
-                print("d is greater")
-            else:
                 print("e is greater")
+    elif c>d:
+        if c>e:
+            print("c is greater")
+        else:
+            print("e is greater")
     else:
-        if c>d:
-            if c>e:
-                print("c is greater")
-            else:
-                print("e is greater")
+        if d>e:
+            print("d is greater")
         else:
-            if d>e:
-                print("d is greater")
-            else:
-                print("e is greater")
+            print("e is greater")
+elif b>c:
+    if b>d:
+        if b>e:
+            print("b ig greater")
+        else:
+            print("e is greater")
+    elif d>e:
+        print("d is greater")
+    else:
+        print("e is greater")
+elif c>d:
+    if c>e:
+        print("c is greater")
+    else:
+        print("e is greater")
+elif d>e:
+    print("d is greater")
 else:
-    if b>c:
-        if b>d:
-            if b>e:
-                print("b ig greater")
-            else:
-                print("e is greater")
-        else:
-            if d>e:
-                print("d is greater")
-            else:
-                print("e is greater")
-    else:
-        if c>d:
-            if c>e:
-                print("c is greater")
-            else:
-                print("e is greater")
-        else:
-            if d>e:
-                print("d is greater")
-            else:
-                print("e is greater")
+    print("e is greater")
 
 
 
