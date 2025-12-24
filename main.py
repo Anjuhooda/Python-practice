@@ -348,7 +348,7 @@ if a>b:
         elif d>e:
             print("d is greater")
         else:
-                print("e is greater")
+            print("e is greater")
     elif c>d:
         if c>e:
             print("c is greater")
@@ -380,6 +380,86 @@ else:
     print("e is greater")
 
 
+a=20
+b=30
+c=40
+d=50
+e=60
+f=70
+if a>b:
+    if a>c:
+        if a>d:
+            if a>e:
+                if a>f:
+                    print("a is greater")
+                else:
+                    print("e is greater")
+            elif e>f:
+                print("e is greater")
+            else:
+                print("f is greater")
+        elif d>e:
+            if d>f:
+                print("d is greater")
+            else:
+                print("f is greater")
+        else:
+            if e>f:
+                print("e is greater")
+            else:
+                print("f is greater")
+    elif c>d:
+        if c>e:
+            if c>f:
+                print("c is greater")
+            else:
+                print("f is greater")
+        elif e>f:
+            print("e is greater")
+        else:
+            print("f is greater")
+elif b>c:
+    if b>d:
+        if b>e:
+            if b>f:
+                print("b is greater")
+            else:
+                print("f is greater")
+        elif e>f:
+            print("e is greater")
+        else:
+            print("f is greater")
+    elif d>e:
+        if d>f:
+            print("d is greater")
+        else:
+            print("f is greater")
+    else:
+        if e>f:
+            print("e is greater")
+        else:
+            print("f is greater")
+elif c>d:
+    if c>e:
+        if c>f:
+            print("c is greater")
+        else:
+            print("f is greater")
+    elif e>f:
+        print("e is greater")
+    else:
+        print("f is greater")
+elif d>e:
+    if d>f:
+        print("d is greater")
+    else:
+        print("f is greater")
+elif e>f:
+    print("e is greater")
+else:
+    print("f is greater")
+
+    
 
 # a=10
 # b=20
