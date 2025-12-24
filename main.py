@@ -459,7 +459,159 @@ elif e>f:
 else:
     print("f is greater")
 
-    
+
+a=100
+b=200
+c=300
+d=400
+e=500
+f=600
+g=700
+if a>b:
+    if a>c:
+        if a>d:
+            if a>e:
+                if a>f:
+                    if a>g:
+                        print("a is greater")
+                    else:
+                        print("g is greater")
+                elif f>g:
+                    print("f is greater")
+                else:
+                    print("g is greater")
+            elif e>f:
+                if e>g:
+                    print("e is greater")
+                else:
+                    print("g is greater")
+            else:
+                if f>g:
+                    print("f is greater")
+                else:
+                    print("g is greater")
+        elif d>e:
+            if d>f:
+                if d>g:
+                    print("d is greater")
+                else:
+                    print("g is greater")
+            elif f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+        else:
+            if e>f:
+                if e>g:
+                    print("e is greater")
+                else:
+                    print("g is greater")
+            elif f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+    elif c>d:
+        if c>e:
+            if c>f:
+                if c>g:
+                    print("c is greater")
+                else:
+                    print("g is greater")
+            elif f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+        elif e>f:
+            if e>g:
+                print("e is greater")
+            else:
+                print("g is greater")
+        else:
+            if f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+elif b>c:
+    if b>d:
+        if b>e:
+            if b>f:
+                if b>g:
+                    print("b is greater")
+                else:
+                    print("gis greater")
+            elif f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+        elif e>f:
+            if e>g:
+                print("e is greater")
+            else:
+                print("g is greater")
+        else:
+            if f>g:
+                print("f is greater")
+            else:
+                print("g is greater")
+    elif d>e:
+        if d>f:
+            if d>g:
+                print("d is greater")
+            else:
+                print("g is greater")
+        elif f>g:
+            print("f is greater")
+        else:
+            print("g is greater")
+    elif e>f:
+        if e>g:
+            print("e is greater")
+        else:
+            print("g is greater")
+    elif f>g:
+        print("f is greater")
+    else:
+        print("g is greater")
+elif c>d:
+    if c>e:
+        if c>f:
+            if c>g:
+                print("c is greater")
+            else:
+                print("g is greater")
+        elif f>g:
+            print("f is greater")
+        else:
+            print("g is greater")
+    elif e>f:
+        if e>g:
+            print("e is greater")
+        else:
+            print("g is greater")
+    else:
+        if f>g:
+            print("f is greater")
+        else:
+            print("g is greater")
+elif d>e:
+    if d>f:
+        if d>g:
+            print("d is greater")
+        else:
+            print("g is greater")
+    elif f>g:
+        print("f is greater")
+    else:
+        print("g is greater")
+elif e>f:
+    if e>g:
+        print("e is greater")
+    else:
+        print("g is greater")
+elif f>g:
+    print("f is greater")
+else:
+    print("g is greater")
 
 # a=10
 # b=20
